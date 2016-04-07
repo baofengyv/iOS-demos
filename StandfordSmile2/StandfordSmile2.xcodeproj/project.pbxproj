@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017EED151C91454E00281ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EED141C91454E00281ECA /* AppDelegate.swift */; };
+		017EED1A1C91454E00281ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017EED181C91454E00281ECA /* Main.storyboard */; };
+		017EED1C1C91454E00281ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017EED1B1C91454E00281ECA /* Assets.xcassets */; };
+		017EED1F1C91454E00281ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017EED1D1C91454E00281ECA /* LaunchScreen.storyboard */; };
+		017EED271C9146FE00281ECA /* SmileFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EED261C9146FE00281ECA /* SmileFaceViewController.swift */; };
+		017EED291C91474600281ECA /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EED281C91474600281ECA /* FaceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017EED111C91454E00281ECA /* StandfordSmile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandfordSmile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017EED141C91454E00281ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		017EED191C91454E00281ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		017EED1B1C91454E00281ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017EED1E1C91454E00281ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		017EED201C91454E00281ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017EED261C9146FE00281ECA /* SmileFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileFaceViewController.swift; sourceTree = "<group>"; };
+		017EED281C91474600281ECA /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017EED0E1C91454E00281ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017EED081C91454E00281ECA = {
+			isa = PBXGroup;
+			children = (
+				017EED131C91454E00281ECA /* StandfordSmile2 */,
+				017EED121C91454E00281ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017EED121C91454E00281ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017EED111C91454E00281ECA /* StandfordSmile2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017EED131C91454E00281ECA /* StandfordSmile2 */ = {
+			isa = PBXGroup;
+			children = (
+				017EED181C91454E00281ECA /* Main.storyboard */,
+				017EED281C91474600281ECA /* FaceView.swift */,
+				017EED261C9146FE00281ECA /* SmileFaceViewController.swift */,
+				017EED141C91454E00281ECA /* AppDelegate.swift */,
+				017EED1B1C91454E00281ECA /* Assets.xcassets */,
+				017EED1D1C91454E00281ECA /* LaunchScreen.storyboard */,
+				017EED201C91454E00281ECA /* Info.plist */,
+			);
+			path = StandfordSmile2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017EED101C91454E00281ECA /* StandfordSmile2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017EED231C91454E00281ECA /* Build configuration list for PBXNativeTarget "StandfordSmile2" */;
+			buildPhases = (
+				017EED0D1C91454E00281ECA /* Sources */,
+				017EED0E1C91454E00281ECA /* Frameworks */,
+				017EED0F1C91454E00281ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandfordSmile2;
+			productName = StandfordSmile2;
+			productReference = 017EED111C91454E00281ECA /* StandfordSmile2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017EED091C91454E00281ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bifangyv;
+				TargetAttributes = {
+					017EED101C91454E00281ECA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 017EED0C1C91454E00281ECA /* Build configuration list for PBXProject "StandfordSmile2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017EED081C91454E00281ECA;
+			productRefGroup = 017EED121C91454E00281ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017EED101C91454E00281ECA /* StandfordSmile2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017EED0F1C91454E00281ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017EED1F1C91454E00281ECA /* LaunchScreen.storyboard in Resources */,
+				017EED1C1C91454E00281ECA /* Assets.xcassets in Resources */,
+				017EED1A1C91454E00281ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017EED0D1C91454E00281ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017EED271C9146FE00281ECA /* SmileFaceViewController.swift in Sources */,
+				017EED151C91454E00281ECA /* AppDelegate.swift in Sources */,
+				017EED291C91474600281ECA /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		017EED181C91454E00281ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017EED191C91454E00281ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		017EED1D1C91454E00281ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017EED1E1C91454E00281ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017EED211C91454E00281ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017EED221C91454E00281ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017EED241C91454E00281ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandfordSmile2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bifangyv.StandfordSmile2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017EED251C91454E00281ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandfordSmile2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bifangyv.StandfordSmile2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017EED0C1C91454E00281ECA /* Build configuration list for PBXProject "StandfordSmile2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EED211C91454E00281ECA /* Debug */,
+				017EED221C91454E00281ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017EED231C91454E00281ECA /* Build configuration list for PBXNativeTarget "StandfordSmile2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EED241C91454E00281ECA /* Debug */,
+				017EED251C91454E00281ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017EED091C91454E00281ECA /* Project object */;
+}

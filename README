@@ -1,0 +1,24 @@
+Hello Word/						
+!!use Protobuf Calculator/			
+MyShowSizeDemo/			# 屏幕尺寸的适配 Compact Regular	
+Autolayout/				# 登录界面  动态添加imageView 并用代码设置其约束
+Psychologist/ 			# 手势 multi MVC
+	StandfordSmile2/    # 手势
+Calculator/			
+Cossini/				# scrollView 和 多线程  允许App访问网络
+test_nil!_crack/		# crack app运行时崩溃 
+test断点汇编/
+testOutlet/				# 测试outlet的设置原理
+
+SmoshTag/				# TableView 网络 还有老头写的请求twitter的代码
+					    # 图片 json 数据的处理
+						# 可用来做聊天会话列表
+TestUnwindSegue/        # unwindSegue 的使用测试 参见白胡子老头的ppt
+
+Alert和ActionSheet/     # 我实现的 Alert ActionSheet 的demo
+					    #  里面还有个加载了图片的scrollView
+
+TestUnwindSegue/		#  UnwindSegue 的使用
+demo-NSTimer/			# NSTimer 的使用
+
+下方块/					# Dynamic Aimation 物理场景动画

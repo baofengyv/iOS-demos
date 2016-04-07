@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="Jjh-RN-JVl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bQm-dw-ydA">
+            <objects>
+                <viewController id="Jjh-RN-JVl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bpD-Nh-DZh"/>
+                        <viewControllerLayoutGuide type="bottom" id="xFW-Cj-zlH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1AK-kl-b0h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2016  云图软件. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ngt-oR-Cgp">
+                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="滚动视图 ScrollView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzT-1y-mcL">
+                                <rect key="frame" x="154" y="180" width="292" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ngt-oR-Cgp" secondAttribute="trailing" id="Kqy-wv-3Yc"/>
+                            <constraint firstItem="Ngt-oR-Cgp" firstAttribute="leading" secondItem="1AK-kl-b0h" secondAttribute="leadingMargin" id="MmN-yx-X0u"/>
+                            <constraint firstAttribute="bottom" secondItem="Ngt-oR-Cgp" secondAttribute="bottom" constant="20" symbolic="YES" id="bh7-7e-uCp"/>
+                            <constraint firstItem="WzT-1y-mcL" firstAttribute="centerY" secondItem="1AK-kl-b0h" secondAttribute="bottom" multiplier="1:3" id="dA8-fK-VZy"/>
+                            <constraint firstAttribute="centerX" secondItem="WzT-1y-mcL" secondAttribute="centerX" id="tg4-Uc-3F2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mGh-GN-r5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="232"/>
+        </scene>
+    </scenes>
+</document>

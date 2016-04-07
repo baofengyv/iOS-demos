@@ -1,0 +1,4 @@
+use_frameworks!
+target 'Calculator' do
+  pod 'ProtocolBuffers-Swift', '~> 2.4'
+end

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static User.login(String, password : String) -&gt; User?:User.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

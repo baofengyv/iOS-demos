@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2qX-bB-tko">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--准备发射-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LaunchViewController" customModule="Alert和ActionSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G51-Xb-NwM">
+                                <rect key="frame" x="252" y="280" width="95" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Let's GO!"/>
+                                <connections>
+                                    <segue destination="frf-zZ-ide" kind="show" identifier="launch" id="kRu-zB-EZ3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G51-Xb-NwM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J6j-Cg-kaJ"/>
+                            <constraint firstItem="G51-Xb-NwM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gfW-9P-gro"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="准备发射" id="bEB-yc-jYF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1135" y="613"/>
+        </scene>
+        <!--😄-->
+        <scene sceneID="wCM-sK-fLa">
+            <objects>
+                <viewController id="frf-zZ-ide" customClass="ShowImageViewController" customModule="Alert和ActionSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j9Q-L7-QWG"/>
+                        <viewControllerLayoutGuide type="bottom" id="7GK-bu-QSx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GqD-3i-YFa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1o-k4-7Dx">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l1o-k4-7Dx" firstAttribute="leading" secondItem="GqD-3i-YFa" secondAttribute="leading" id="7qv-Pm-swm"/>
+                            <constraint firstAttribute="trailing" secondItem="l1o-k4-7Dx" secondAttribute="trailing" id="Uj6-gH-9k2"/>
+                            <constraint firstItem="l1o-k4-7Dx" firstAttribute="bottom" secondItem="7GK-bu-QSx" secondAttribute="top" id="l3r-nC-vh2"/>
+                            <constraint firstItem="l1o-k4-7Dx" firstAttribute="top" secondItem="GqD-3i-YFa" secondAttribute="top" id="yeE-IS-Cuw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="😄" id="IJE-5p-S4d">
+                        <barButtonItem key="rightBarButtonItem" title="空间转移" id="pvc-M6-KD8">
+                            <connections>
+                                <action selector="showActionSheet:" destination="frf-zZ-ide" id="6Lm-bE-E5N"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="redeplayBarButtonItem" destination="pvc-M6-KD8" id="PjL-fY-KRz"/>
+                        <outlet property="scrollView_Image" destination="l1o-k4-7Dx" id="ew4-Yn-x33"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qtt-BE-Iem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1135" y="1364"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V20-IV-RGQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2qX-bB-tko" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="COM-bv-8Gp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7kS-aQ-04N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUc-3h-1Fu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="613"/>
+        </scene>
+    </scenes>
+</document>
