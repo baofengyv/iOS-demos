@@ -22,3 +22,5 @@ TestUnwindSegue/		#  UnwindSegue 的使用
 demo-NSTimer/			# NSTimer 的使用
 
 下方块/					# Dynamic Aimation 物理场景动画
+
+Trax-i/					# AirDrop GPX 文件。 NSNotification广播的发送和接收

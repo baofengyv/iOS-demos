@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010E61071CB4F0EB00C5BDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E61061CB4F0EB00C5BDEA /* AppDelegate.swift */; };
-		010E610C1CB4F0EB00C5BDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010E610A1CB4F0EB00C5BDEA /* Main.storyboard */; };
-		010E610E1CB4F0EB00C5BDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010E610D1CB4F0EB00C5BDEA /* Assets.xcassets */; };
-		010E61111CB4F0EB00C5BDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010E610F1CB4F0EB00C5BDEA /* LaunchScreen.storyboard */; };
-		010E61191CB4F26300C5BDEA /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E61181CB4F26300C5BDEA /* DropitViewController.swift */; };
-		01F1070C1CB5F5D600BE6A05 /* DropitBehavair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1070B1CB5F5D600BE6A05 /* DropitBehavair.swift */; };
-		01F1070E1CB60CE400BE6A05 /* BeizePathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1070D1CB60CE400BE6A05 /* BeizePathView.swift */; };
+		01E5C8921CB7872D00B2D39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C8911CB7872D00B2D39A /* AppDelegate.swift */; };
+		01E5C8941CB7872D00B2D39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C8931CB7872D00B2D39A /* ViewController.swift */; };
+		01E5C8971CB7872D00B2D39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5C8951CB7872D00B2D39A /* Main.storyboard */; };
+		01E5C8991CB7872D00B2D39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E5C8981CB7872D00B2D39A /* Assets.xcassets */; };
+		01E5C89C1CB7872D00B2D39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5C89A1CB7872D00B2D39A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		010E61031CB4F0EA00C5BDEA /* 下方块.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下方块.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		010E61061CB4F0EB00C5BDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		010E610B1CB4F0EB00C5BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		010E610D1CB4F0EB00C5BDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		010E61101CB4F0EB00C5BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		010E61121CB4F0EB00C5BDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		010E61181CB4F26300C5BDEA /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
-		01F1070B1CB5F5D600BE6A05 /* DropitBehavair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavair.swift; sourceTree = "<group>"; };
-		01F1070D1CB60CE400BE6A05 /* BeizePathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeizePathView.swift; sourceTree = "<group>"; };
+		01E5C88E1CB7872D00B2D39A /* Trax-i.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trax-i.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E5C8911CB7872D00B2D39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01E5C8931CB7872D00B2D39A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01E5C8961CB7872D00B2D39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01E5C8981CB7872D00B2D39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E5C89B1CB7872D00B2D39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E5C89D1CB7872D00B2D39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		010E61001CB4F0EA00C5BDEA /* Frameworks */ = {
+		01E5C88B1CB7872C00B2D39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010E60FA1CB4F0EA00C5BDEA = {
+		01E5C8851CB7872C00B2D39A = {
 			isa = PBXGroup;
 			children = (
-				010E61051CB4F0EB00C5BDEA /* 下方块 */,
-				010E61041CB4F0EA00C5BDEA /* Products */,
+				01E5C8901CB7872D00B2D39A /* Trax-i */,
+				01E5C88F1CB7872D00B2D39A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		010E61041CB4F0EA00C5BDEA /* Products */ = {
+		01E5C88F1CB7872D00B2D39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				010E61031CB4F0EA00C5BDEA /* 下方块.app */,
+				01E5C88E1CB7872D00B2D39A /* Trax-i.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		010E61051CB4F0EB00C5BDEA /* 下方块 */ = {
+		01E5C8901CB7872D00B2D39A /* Trax-i */ = {
 			isa = PBXGroup;
 			children = (
-				010E61181CB4F26300C5BDEA /* DropitViewController.swift */,
-				01F1070B1CB5F5D600BE6A05 /* DropitBehavair.swift */,
-				01F1070D1CB60CE400BE6A05 /* BeizePathView.swift */,
-				010E610D1CB4F0EB00C5BDEA /* Assets.xcassets */,
-				010E61061CB4F0EB00C5BDEA /* AppDelegate.swift */,
-				010E610A1CB4F0EB00C5BDEA /* Main.storyboard */,
-				010E610F1CB4F0EB00C5BDEA /* LaunchScreen.storyboard */,
-				010E61121CB4F0EB00C5BDEA /* Info.plist */,
+				01E5C8911CB7872D00B2D39A /* AppDelegate.swift */,
+				01E5C8931CB7872D00B2D39A /* ViewController.swift */,
+				01E5C8951CB7872D00B2D39A /* Main.storyboard */,
+				01E5C8981CB7872D00B2D39A /* Assets.xcassets */,
+				01E5C89A1CB7872D00B2D39A /* LaunchScreen.storyboard */,
+				01E5C89D1CB7872D00B2D39A /* Info.plist */,
 			);
-			path = "下方块";
+			path = "Trax-i";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		010E61021CB4F0EA00C5BDEA /* 下方块 */ = {
+		01E5C88D1CB7872C00B2D39A /* Trax-i */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 010E61151CB4F0EB00C5BDEA /* Build configuration list for PBXNativeTarget "下方块" */;
+			buildConfigurationList = 01E5C8A01CB7872D00B2D39A /* Build configuration list for PBXNativeTarget "Trax-i" */;
 			buildPhases = (
-				010E60FF1CB4F0EA00C5BDEA /* Sources */,
-				010E61001CB4F0EA00C5BDEA /* Frameworks */,
-				010E61011CB4F0EA00C5BDEA /* Resources */,
+				01E5C88A1CB7872C00B2D39A /* Sources */,
+				01E5C88B1CB7872C00B2D39A /* Frameworks */,
+				01E5C88C1CB7872C00B2D39A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "下方块";
-			productName = "下方块";
-			productReference = 010E61031CB4F0EA00C5BDEA /* 下方块.app */;
+			name = "Trax-i";
+			productName = "Trax-i";
+			productReference = 01E5C88E1CB7872D00B2D39A /* Trax-i.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		010E60FB1CB4F0EA00C5BDEA /* Project object */ = {
+		01E5C8861CB7872C00B2D39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = bifangyv;
 				TargetAttributes = {
-					010E61021CB4F0EA00C5BDEA = {
+					01E5C88D1CB7872C00B2D39A = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = MB7L74VH3J;
 					};
 				};
 			};
-			buildConfigurationList = 010E60FE1CB4F0EA00C5BDEA /* Build configuration list for PBXProject "下方块" */;
+			buildConfigurationList = 01E5C8891CB7872C00B2D39A /* Build configuration list for PBXProject "Trax-i" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 010E60FA1CB4F0EA00C5BDEA;
-			productRefGroup = 010E61041CB4F0EA00C5BDEA /* Products */;
+			mainGroup = 01E5C8851CB7872C00B2D39A;
+			productRefGroup = 01E5C88F1CB7872D00B2D39A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				010E61021CB4F0EA00C5BDEA /* 下方块 */,
+				01E5C88D1CB7872C00B2D39A /* Trax-i */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		010E61011CB4F0EA00C5BDEA /* Resources */ = {
+		01E5C88C1CB7872C00B2D39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				010E61111CB4F0EB00C5BDEA /* LaunchScreen.storyboard in Resources */,
-				010E610E1CB4F0EB00C5BDEA /* Assets.xcassets in Resources */,
-				010E610C1CB4F0EB00C5BDEA /* Main.storyboard in Resources */,
+				01E5C89C1CB7872D00B2D39A /* LaunchScreen.storyboard in Resources */,
+				01E5C8991CB7872D00B2D39A /* Assets.xcassets in Resources */,
+				01E5C8971CB7872D00B2D39A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		010E60FF1CB4F0EA00C5BDEA /* Sources */ = {
+		01E5C88A1CB7872C00B2D39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				010E61191CB4F26300C5BDEA /* DropitViewController.swift in Sources */,
-				01F1070E1CB60CE400BE6A05 /* BeizePathView.swift in Sources */,
-				010E61071CB4F0EB00C5BDEA /* AppDelegate.swift in Sources */,
-				01F1070C1CB5F5D600BE6A05 /* DropitBehavair.swift in Sources */,
+				01E5C8941CB7872D00B2D39A /* ViewController.swift in Sources */,
+				01E5C8921CB7872D00B2D39A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		010E610A1CB4F0EB00C5BDEA /* Main.storyboard */ = {
+		01E5C8951CB7872D00B2D39A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				010E610B1CB4F0EB00C5BDEA /* Base */,
+				01E5C8961CB7872D00B2D39A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		010E610F1CB4F0EB00C5BDEA /* LaunchScreen.storyboard */ = {
+		01E5C89A1CB7872D00B2D39A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				010E61101CB4F0EB00C5BDEA /* Base */,
+				01E5C89B1CB7872D00B2D39A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		010E61131CB4F0EB00C5BDEA /* Debug */ = {
+		01E5C89E1CB7872D00B2D39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		010E61141CB4F0EB00C5BDEA /* Release */ = {
+		01E5C89F1CB7872D00B2D39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,24 +248,24 @@
 			};
 			name = Release;
 		};
-		010E61161CB4F0EB00C5BDEA /* Debug */ = {
+		01E5C8A11CB7872D00B2D39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "下方块/Info.plist";
+				INFOPLIST_FILE = "Trax-i/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bifangyv.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "bifangyv.Trax-i";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		010E61171CB4F0EB00C5BDEA /* Release */ = {
+		01E5C8A21CB7872D00B2D39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "下方块/Info.plist";
+				INFOPLIST_FILE = "Trax-i/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bifangyv.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "bifangyv.Trax-i";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -281,25 +273,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		010E60FE1CB4F0EA00C5BDEA /* Build configuration list for PBXProject "下方块" */ = {
+		01E5C8891CB7872C00B2D39A /* Build configuration list for PBXProject "Trax-i" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				010E61131CB4F0EB00C5BDEA /* Debug */,
-				010E61141CB4F0EB00C5BDEA /* Release */,
+				01E5C89E1CB7872D00B2D39A /* Debug */,
+				01E5C89F1CB7872D00B2D39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		010E61151CB4F0EB00C5BDEA /* Build configuration list for PBXNativeTarget "下方块" */ = {
+		01E5C8A01CB7872D00B2D39A /* Build configuration list for PBXNativeTarget "Trax-i" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				010E61161CB4F0EB00C5BDEA /* Debug */,
-				010E61171CB4F0EB00C5BDEA /* Release */,
+				01E5C8A11CB7872D00B2D39A /* Debug */,
+				01E5C8A21CB7872D00B2D39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 010E60FB1CB4F0EA00C5BDEA /* Project object */;
+	rootObject = 01E5C8861CB7872C00B2D39A /* Project object */;
 }
