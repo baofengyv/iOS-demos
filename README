@@ -24,3 +24,9 @@ demo-NSTimer/			# NSTimer 的使用
 下方块/					# Dynamic Aimation 物理场景动画
 
 Trax-i/					# AirDrop GPX 文件。 NSNotification广播的发送和接收
+
+Bouncer/                # 传感器的使用（以重力传感器为例子） 参见：白胡子老头 Lecture 13
+
+Trax/        #未弄完 以后有时间再弄 参见：白胡子老头 Lecture 14
+
+i18nTest/               # 国际话

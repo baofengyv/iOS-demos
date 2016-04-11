@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="9XK-iS-ax4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4In-gH-62m">
+            <objects>
+                <viewController id="9XK-iS-ax4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tCo-g2-FM1"/>
+                        <viewControllerLayoutGuide type="bottom" id="91J-Hu-RXI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iCA-Fp-BdM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2016  云图软件." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="p4q-Ch-cam">
+                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="i18n 测试" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2OP-pA-15u">
+                                <rect key="frame" x="232" y="180" width="136" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p4q-Ch-cam" firstAttribute="leading" secondItem="iCA-Fp-BdM" secondAttribute="leadingMargin" id="2yt-uo-7Dd"/>
+                            <constraint firstAttribute="centerX" secondItem="2OP-pA-15u" secondAttribute="centerX" id="8Hu-NF-Yrs"/>
+                            <constraint firstItem="2OP-pA-15u" firstAttribute="centerY" secondItem="iCA-Fp-BdM" secondAttribute="bottom" multiplier="1:3" id="EVJ-hf-XlD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p4q-Ch-cam" secondAttribute="trailing" id="Hfi-Q6-5Kw"/>
+                            <constraint firstAttribute="bottom" secondItem="p4q-Ch-cam" secondAttribute="bottom" constant="20" symbolic="YES" id="zx7-89-Ypr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Zf-pA-rHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="387"/>
+        </scene>
+    </scenes>
+</document>
