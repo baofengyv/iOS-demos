@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Oay-kF-rkm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="ztf-vQ-izV">
+            <objects>
+                <tableViewController id="uxo-Mh-c4y" customClass="TableViewController" customModule="HitList" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="UB2-0b-dhY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="uxo-Mh-c4y" id="bDD-nk-xXC"/>
+                            <outlet property="delegate" destination="uxo-Mh-c4y" id="zlM-vU-5oF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="pcg-z2-hzl">
+                        <barButtonItem key="rightBarButtonItem" title="添加" id="y4X-Tz-FfH">
+                            <connections>
+                                <action selector="addName:" destination="uxo-Mh-c4y" id="uIB-lr-Tvb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="UB2-0b-dhY" id="tyE-CL-bFm"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTy-gv-gfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1391" y="611"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hxu-9x-MlO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oay-kF-rkm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fPE-mh-jZR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uxo-Mh-c4y" kind="relationship" relationship="rootViewController" id="Gmr-6X-ZAb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vqb-iF-OvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="611"/>
+        </scene>
+    </scenes>
+</document>

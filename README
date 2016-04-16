@@ -30,3 +30,10 @@ Bouncer/                # 传感器的使用（以重力传感器为例子） �
 Trax/        #未弄完 以后有时间再弄 参见：白胡子老头 Lecture 14
 
 i18nTest/               # 国际话
+
+HitList/                # CoreData ,TableView,Baritem,Alert
+
+Bow Ties/               # fetching validation subclass
+						# 数据验证 查询  entity mapper png图片处理 plist数据读取
+
+Dog Walk/				# Core Data Stack   TableView 横扫删除
