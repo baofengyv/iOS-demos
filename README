@@ -37,3 +37,9 @@ Bow Ties/               # fetching validation subclass
 						# 数据验证 查询  entity mapper png图片处理 plist数据读取
 
 Dog Walk/				# Core Data Stack   TableView 横扫删除
+
+Bubble Tea Finder/      # 分小节的tableView 从文件读取json进行处理 
+						# 对数据库的各种fetch 排序什么的
+					    # 解析json导入数据  查询数据库条目数
+
+WorldCup／              # NSFetchedResultsController  view与数据库的绑定
