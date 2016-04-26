@@ -37,8 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let fetchRequest = NSFetchRequest(entityName: "Team")
         var error:NSError? = nil
         
-        let count = coreDataStack.context
-            .countForFetchRequest(fetchRequest, error: &error)
+        let count = coreDataStack.context.countForFetchRequest(fetchRequest, error: &error)
         
         if count == 0 {
             importJSONSeedData()

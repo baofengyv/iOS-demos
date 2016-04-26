@@ -51,7 +51,7 @@
                                 <rect key="frame" x="254" y="232" width="93" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="who am i">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="whoAmI" destination="BYZ-38-t0r" eventType="touchUpInside" id="38H-v3-cV4"/>
@@ -160,7 +160,7 @@
                                 <rect key="frame" x="254" y="232" width="93" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="who am i">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="whoAmI" destination="ebh-MC-eVg" eventType="touchUpInside" id="Qb8-UI-w6L"/>
@@ -200,7 +200,7 @@
                                 <rect key="frame" x="254" y="280" width="93" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="who am i">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="whoAmI" destination="SO3-9q-l6B" eventType="touchUpInside" id="Wqw-5O-3ib"/>
@@ -251,7 +251,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EYV-9M-FNw"/>
+        <segue reference="qyc-RP-axG"/>
         <segue reference="bTc-K3-PaQ"/>
     </inferredMetricsTieBreakers>
 </document>

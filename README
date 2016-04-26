@@ -43,3 +43,7 @@ Bubble Tea Finder/      # 分小节的tableView 从文件读取json进行处理
 					    # 解析json导入数据  查询数据库条目数
 
 WorldCup／              # NSFetchedResultsController  view与数据库的绑定
+
+test_JSQMessagesViewController／
+						# 参见 https://www.syncano.io/blog/create-ios-chat-app-part3/
+						# JSQMessagesViewController 使用的示例
