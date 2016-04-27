@@ -47,3 +47,6 @@ WorldCup／              # NSFetchedResultsController  view与数据库的绑定
 test_JSQMessagesViewController／
 						# 参见 https://www.syncano.io/blog/create-ios-chat-app-part3/
 						# JSQMessagesViewController 使用的示例
+
+ChatChat/               # 参见 http://www.raywenderlich.com/122148/firebase-tutorial-real-time-chat
+						# 很好的JSQMessagesViewController 使用的示例
