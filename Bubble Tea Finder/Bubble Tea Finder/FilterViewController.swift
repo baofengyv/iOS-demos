@@ -40,6 +40,7 @@ class FilterViewController: UITableViewController {
     var selectedPredicate: NSPredicate?
     
     // 用这个计算价格等级为$ 的数量
+    
     lazy var cheapVenuePredicate: NSPredicate = {
         var predicate =
             NSPredicate(format: "priceInfo.priceCategory == %@", "$")

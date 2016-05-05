@@ -41,6 +41,7 @@ Dog Walk/				# Core Data Stack   TableView 横扫删除
 Bubble Tea Finder/      # 分小节的tableView 从文件读取json进行处理 
 						# 对数据库的各种fetch 排序什么的
 					    # 解析json导入数据  查询数据库条目数
+					    # NSBatchUpdateRequest
 
 WorldCup／              # NSFetchedResultsController  view与数据库的绑定
 
@@ -50,3 +51,5 @@ test_JSQMessagesViewController／
 
 ChatChat/               # 参见 http://www.raywenderlich.com/122148/firebase-tutorial-real-time-chat
 						# 很好的JSQMessagesViewController 使用的示例
+						# 获取设备唯一编号 设备号
+						

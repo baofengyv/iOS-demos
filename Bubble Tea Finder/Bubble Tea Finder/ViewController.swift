@@ -53,8 +53,6 @@ class ViewController: UIViewController {
             print("Could not fetch \(error), \(error.userInfo)")
         }
         
-        
-        
         let batchUpdate = NSBatchUpdateRequest(entityName: "Venue")
         batchUpdate.propertiesToUpdate = ["favorite" : NSNumber(bool: true)]
         batchUpdate.affectedStores = coreDataStack.context.persistentStoreCoordinator!.persistentStores
