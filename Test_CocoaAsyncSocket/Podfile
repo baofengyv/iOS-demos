@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Test_CocoaAsyncSocket' do
+  pod 'CocoaAsyncSocket', '~> 7.4'
+  pod 'ProtocolBuffers-Swift', '~> 2.4'
+end
