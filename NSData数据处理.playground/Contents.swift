@@ -57,3 +57,5 @@ var l:UInt16 = 0
 lData.getBytes(&l, length: sizeof(UInt16))
 l.bigEndian
 
+
+mesg.text = String(data: im.body.msgData.data(), encoding: NSUTF8StringEncoding)
