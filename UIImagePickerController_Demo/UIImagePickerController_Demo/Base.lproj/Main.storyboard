@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dds-bA-LGn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Avatar Picker View Controller-->
+        <scene sceneID="Zy8-8W-wwj">
+            <objects>
+                <viewController id="Dds-bA-LGn" customClass="AvatarPickerViewController" customModule="UIImagePickerController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VVA-0R-1iC"/>
+                        <viewControllerLayoutGuide type="bottom" id="MoI-UK-Zyz"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="rNz-K8-hpd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="横" translatesAutoresizingMaskIntoConstraints="NO" id="qNW-ok-hIW">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owR-Im-8zV">
+                                <rect key="frame" x="20" y="562" width="30" height="30"/>
+                                <state key="normal" title="拍照"/>
+                                <connections>
+                                    <action selector="takePhoto" destination="Dds-bA-LGn" eventType="touchUpInside" id="3pV-fv-ObQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXG-CC-DdW">
+                                <rect key="frame" x="475" y="562" width="105" height="30"/>
+                                <state key="normal" title="从手机相册选择"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qNW-ok-hIW" firstAttribute="centerX" secondItem="rNz-K8-hpd" secondAttribute="centerX" id="HrN-yg-xeo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eXG-CC-DdW" secondAttribute="trailing" id="LWR-1K-cKD"/>
+                            <constraint firstItem="qNW-ok-hIW" firstAttribute="leading" secondItem="rNz-K8-hpd" secondAttribute="leading" id="TOH-8V-7Xc"/>
+                            <constraint firstItem="owR-Im-8zV" firstAttribute="leading" secondItem="rNz-K8-hpd" secondAttribute="leadingMargin" id="hQL-Xs-aOo"/>
+                            <constraint firstItem="qNW-ok-hIW" firstAttribute="centerY" secondItem="rNz-K8-hpd" secondAttribute="centerY" id="hud-ip-g1d"/>
+                            <constraint firstItem="qNW-ok-hIW" firstAttribute="top" secondItem="rNz-K8-hpd" secondAttribute="top" id="m28-Vu-SNW"/>
+                            <constraint firstItem="MoI-UK-Zyz" firstAttribute="top" secondItem="owR-Im-8zV" secondAttribute="bottom" constant="8" symbolic="YES" id="q98-gO-ZWO"/>
+                            <constraint firstItem="qNW-ok-hIW" firstAttribute="bottom" secondItem="MoI-UK-Zyz" secondAttribute="top" id="qLB-Ly-KbR"/>
+                            <constraint firstAttribute="trailing" secondItem="qNW-ok-hIW" secondAttribute="trailing" id="vz7-ur-Sh9"/>
+                            <constraint firstItem="MoI-UK-Zyz" firstAttribute="top" secondItem="eXG-CC-DdW" secondAttribute="bottom" constant="8" symbolic="YES" id="wUB-fE-ved"/>
+                        </constraints>
+                    </scrollView>
+                    <connections>
+                        <outlet property="imageView" destination="qNW-ok-hIW" id="MwG-hN-uFQ"/>
+                        <outlet property="scrollView" destination="rNz-K8-hpd" id="Qt1-9D-T32"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMY-DF-OWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="1044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="横" width="377" height="152"/>
+    </resources>
+</document>
