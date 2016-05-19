@@ -1,0 +1,10 @@
+PODS:
+  - AudioBot (0.2)
+
+DEPENDENCIES:
+  - AudioBot (~> 0.2)
+
+SPEC CHECKSUMS:
+  AudioBot: 8104bfd0edd356ee4ff1b33de2f3113c1968c943
+
+COCOAPODS: 0.39.0

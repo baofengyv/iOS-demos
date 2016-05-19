@@ -27,7 +27,7 @@ Trax-i/					# AirDrop GPX 文件。 NSNotification广播的发送和接收
 
 Bouncer/                # 传感器的使用（以重力传感器为例子） 参见：白胡子老头 Lecture 13
 
-Trax/        #未弄完 以后有时间再弄 参见：白胡子老头 Lecture 14
+Trax/                   #未弄完 以后有时间再弄 参见：白胡子老头 Lecture 14
 
 i18nTest/               # 国际话
 
@@ -52,4 +52,9 @@ test_JSQMessagesViewController／
 ChatChat/               # 参见 http://www.raywenderlich.com/122148/firebase-tutorial-real-time-chat
 						# 很好的JSQMessagesViewController 使用的示例
 						# 获取设备唯一编号 设备号  无头像
+
+
+Swift-OC Test/          # swift 中调用oc
+swift-C_Test／          # swift 中调用C
 						
+Test-AAC-Record_Play/   # 录制aac文件以及回放  使用了“AudioBot”
