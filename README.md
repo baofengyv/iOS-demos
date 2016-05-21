@@ -1,3 +1,6 @@
+#作为一名初学者下面是我用到的一些很简单的例子 ：）
+
+
 ##Hello Word/						
 
 ##!!use Protobuf Calculator/
@@ -88,3 +91,8 @@
 						
 ##Test-AAC-Record_Play/   
 	# 录制aac文件以及回放  使用了“AudioBot”
+	
+##StackView demo/
+	# stackView 使用 
+	参见：http://code.tutsplus.com/tutorials/ios-9-getting-started-with-uistackview--cms-24193
+	     http://www.cocoachina.com/ios/20150623/12233.html
