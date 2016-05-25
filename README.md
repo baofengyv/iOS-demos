@@ -11,6 +11,7 @@
 	# 登录界面  动态添加imageView 并用代码设置其约束
 ##Psychologist/ 			
 	# 手势 multi MVC
+	#popOver window 弹窗
 ##StandfordSmile2/    
 	# 手势
 ##Calculator/		
@@ -96,3 +97,5 @@
 	# stackView 使用 
 	参见：http://code.tutsplus.com/tutorials/ios-9-getting-started-with-uistackview--cms-24193
 	     http://www.cocoachina.com/ios/20150623/12233.html
+##popOverDemo
+	# popOver 效果见截图
